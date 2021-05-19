@@ -7,11 +7,11 @@
 }
 @font-face {
   font-family: 'NotoSansTC';
-  src: url(../fonts/NotoSansTC-Regular.otf);
+  src: url(../fonts/NotoSansSC-Regular.otf);
 }
 @font-face {
   font-family: 'NotoSansTC-Light';
-  src: url(../fonts/NotoSansTC-Light.otf);
+  src: url(../fonts/NotoSansSC-Light.otf);
 }
 .img {
   position: absolute;
@@ -22,7 +22,7 @@
   display: none;
 }
 .wrapper {
-  animation: Emerge 1.5s;
+  animation: Emerge 3s;
   padding: 10px;
   padding-top: 50px;
 }
