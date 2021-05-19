@@ -22,6 +22,7 @@
   display: none;
 }
 .wrapper {
+  animation: Emerge 1.5s;
   padding: 10px;
   padding-top: 50px;
 }
@@ -119,5 +120,15 @@ button {
     position: absolute;
     top: 100%;
     left: 55%;
+  }
+}
+@keyframes Emerge {
+  0% {
+    margin-left: 10px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
   }
 }
